@@ -15,13 +15,13 @@ $opala = new Veiculos(
 );
 
 echo "marea turbo <br>";
-echo $marea->getPlaca()."<br>";
-echo $marea->getMarca()."<br>";
-echo $marea->getIpva()."<br>";
-echo $marea->getAno()."<br>";
+echo "Placa: ".$marea->getPlaca()."<br>";
+echo "Marca: ".$marea->getMarca()."<br>";
+echo "Valor IPVA: ".$marea->getIpva()."<br>";
+echo "Ano: ".$marea->getAno()."<br>";
 echo "<hr>";
 echo "Opala <br>";
-echo $opala->getPlaca()."<br>";
-echo $opala->getMarca()."<br>";
-echo $opala->getIpva()."<br>";
-echo $opala->getAno()."<br>";
+echo "Placa: ".$opala->getPlaca()."<br>";
+echo "Marca: ".$opala->getMarca()."<br>";
+echo "Valor IPVA: ".$opala->getIpva()."<br>";
+echo "Ano: ".$opala->getAno()."<br>";

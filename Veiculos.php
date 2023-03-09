@@ -31,8 +31,5 @@ class Veiculos{
         return $this->ano;
     }
 
-    // public function listar() {
-    //     echo "$";
-    // }
 
 }
